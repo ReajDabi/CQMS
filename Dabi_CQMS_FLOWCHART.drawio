@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Inc6S3QuIZi3xBD9r1ef">
+    <mxGraphModel dx="885" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xoqaERz7bk33Lui_rU3M-9" edge="1" parent="1" source="xoqaERz7bk33Lui_rU3M-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="xoqaERz7bk33Lui_rU3M-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="START" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-11" edge="1" parent="1" source="xoqaERz7bk33Lui_rU3M-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="xoqaERz7bk33Lui_rU3M-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Process&lt;div&gt;Patient&#39;s name, age, reason for visit, and patient type&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="395" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-17" edge="1" parent="1" source="xoqaERz7bk33Lui_rU3M-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="xoqaERz7bk33Lui_rU3M-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-20" edge="1" parent="1" source="xoqaERz7bk33Lui_rU3M-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="xoqaERz7bk33Lui_rU3M-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="input the patient&#39;s name, age, reason for visit, and patient type" vertex="1">
+          <mxGeometry height="90" width="190" x="115" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-12" edge="1" parent="1" source="xoqaERz7bk33Lui_rU3M-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="xoqaERz7bk33Lui_rU3M-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Determine priority and generates the next shared queue number" vertex="1">
+          <mxGeometry height="90" width="180" x="395" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-13" edge="1" parent="1" source="xoqaERz7bk33Lui_rU3M-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="xoqaERz7bk33Lui_rU3M-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Outputs and add the patient&#39;s queue number, patient type, and priority to the Systems whole queue" vertex="1">
+          <mxGeometry height="90" width="190" x="390" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="END" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="FLOWCHART FOR ADD TO QUEUE and CLEAR" vertex="1">
+          <mxGeometry height="30" width="390" x="110" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-18" edge="1" parent="1" source="xoqaERz7bk33Lui_rU3M-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="xoqaERz7bk33Lui_rU3M-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="ADD TO QUEUE is clicked" vertex="1">
+          <mxGeometry height="80" width="190" x="385" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-22" edge="1" parent="1" source="xoqaERz7bk33Lui_rU3M-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="xoqaERz7bk33Lui_rU3M-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="CLEAR is clicked" vertex="1">
+          <mxGeometry height="80" width="190" x="115" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-24" edge="1" parent="1" source="xoqaERz7bk33Lui_rU3M-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="xoqaERz7bk33Lui_rU3M-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Clear the data from the textbox or input fields" vertex="1">
+          <mxGeometry height="90" width="180" x="120" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="xoqaERz7bk33Lui_rU3M-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="END" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
